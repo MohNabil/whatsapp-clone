@@ -1,0 +1,24 @@
+{
+	"name": "server",
+	"version": "1.0.0",
+	"description": "server for the project",
+	"main": "server.js",
+	"engines": {
+		"node": "12.6.1",
+		"npm": "6.14.8"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "nodemon server.js"
+	},
+	"author": "Mohamed Nabil",
+	"license": "ISC",
+	"dependencies": {
+		"bcryptjs": "^2.4.3",
+		"cors": "^2.8.5",
+		"express": "^4.17.1",
+		"mongoose": "^5.10.4",
+		"nodemon": "^2.0.4",
+		"pusher": "^3.0.1"
+	}
+}
